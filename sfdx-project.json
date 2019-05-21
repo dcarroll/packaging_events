@@ -1,0 +1,34 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "package": "RedAccounts",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true
+        },
+        {
+            "path": "notification",
+            "package": "RedAccountSlackNotification",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "RedAccounts",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "46.0",
+    "packageAliases": {
+        "RedAccounts": "0HoB00000004Cv0KAE",
+        "RedAccountSlackNotification": "0HoB00000004Cv5KAE",
+        "RedAccounts@0.1.0-1": "04tB00000006qbxIAA",
+        "RedAccountSlackNotification@0.1.0-1": "04tB00000006qc2IAA",
+        "RedAccounts@0.1.0-2": "04tB00000006qcCIAQ"
+    }
+}
